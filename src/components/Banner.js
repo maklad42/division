@@ -5,7 +5,7 @@ import { Container, Logo, Title, Menu } from './styles/Banner';
 export function Banner({ classes }) {
   return (
     <Container className={classNames('Container', classes)}>
-      The Division: Gear Sets
+      <h1>The Division: Gear Sets</h1>
     </Container>
   );
 }

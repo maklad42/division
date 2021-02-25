@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 80%;
-  height: 90vh;
+  width: 25%;
+  margin: 20px;
+  display: inline-block;
+  position: relative;
+  height: 10rem;
   background-color: #11dd11;
   color: #dddddd;
 `;
