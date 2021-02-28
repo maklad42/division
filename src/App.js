@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <Banner />
       <main className="main">
-        <h2>The Division Gears Sets</h2>
         <Gearset />
         <Gearset />
         <Gearset />

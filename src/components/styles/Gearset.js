@@ -1,13 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 25%;
-  margin: 20px;
-  display: inline-block;
+  width: 90%;
   position: relative;
-  height: 10rem;
-  background-color: #11dd11;
-  color: #dddddd;
+  height: 90%;
+  background-color: rgba(100, 200, 120, 0.2);
+  color: #11dd11;
 `;
 
 export const Title = styled.div``;
