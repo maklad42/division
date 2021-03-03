@@ -1,6 +1,8 @@
 {
-  "gearsets": {
-    "AlphaBridge Set": {
+  "gearsets":
+    [{
+      "id": 1,
+      "name": "AlphaBridge Set",
       "armor": {"owned": false, "name": "AlphaBridge Chest"},
       "gloves": {"owned": false, "name": "AlphaBridge Gloves"},
       "holster": {"owned": false, "name": "AlphaBridge Holster"},
@@ -8,7 +10,9 @@
       "mask": {"owned": false, "name": "AlphaBridge Mask"},
       "pack": {"owned": false, "name": "AlphaBridge Backpack"}
     },
-    "Banshee Set": {
+    {
+      "id": 2,
+      "name": "Banshee Set",
       "armor": {"owned": false, "name": "Banshee's Shadow Armor"},
       "gloves": {"owned": false, "name": "Banshee's Shadow Gloves"},
       "holster": {"owned": false, "name": "Banshee's Shadow Holster"},
@@ -16,7 +20,9 @@
       "mask": {"owned": false, "name": "Banshee's Shadow Mask"},
       "pack": {"owned": false, "name": "Banshee's Shadow Backpack"}
     },
-    "D3-FNC Set": {
+    {
+      "id": 3,
+      "name": "D3-FNC Set",
       "armor": {"owned": false, "name": "D3-FNC Vest"},
       "gloves": {"owned": false, "name": "D3-FNC Gloves"},
       "holster": {"owned": false, "name": "D3-FNC Holster"},
@@ -24,7 +30,9 @@
       "mask": {"owned": false, "name": "D3-FNC Mask"},
       "pack": {"owned": false, "name": "D3-FNC Backpack"}
     },
-    "DeadEYE Set": {
+    {
+      "id": 4,
+      "name": "DeadEYE Set",
       "armor": {"owned": false, "name": "DeadEYE Chestplate"},
       "gloves": {"owned": false, "name": "DeadEYE Trigger Gloves"},
       "holster": {"owned": false, "name": "DeadEYE Quick Draw Holster"},
@@ -32,7 +40,9 @@
       "mask": {"owned": false, "name": "DeadEYE Acquisition System"},
       "pack": {"owned": false, "name": "DeadEYE Go Bag"}
     },
-    "Final Measure Set": {
+    {
+      "id": 5,
+      "name": "Final Measure Set",
       "armor": {"owned": false, "name": "Final Measure Vest"},
       "gloves": {"owned": false, "name": "Final Measure Glooves"},
       "holster": {"owned": false, "name": "Final Measure Holster"},
@@ -40,7 +50,9 @@
       "mask": {"owned": false, "name": "Final Measure Mask"},
       "pack": {"owned": false, "name": "Final Measure Backpack"}
     },
-    "FireCrest Set": {
+    {
+      "id": 6,
+      "name": "FireCrest Set",
       "armor": {"owned": false, "name": "FireCrest Acquisition Vest"},
       "gloves": {"owned": false, "name": "FireCrest Gloves"},
       "holster": {"owned": false, "name": "FireCrest Distribution Holster"},
@@ -48,7 +60,9 @@
       "mask": {"owned": false, "name": "FireCrest Ammo Tracking Mask"},
       "pack": {"owned": false, "name": "FireCrest Microshuttle Pack"}
     },
-    "Hunter's Faith Set": {
+    {
+      "id": 7,
+      "name": "Hunter's Faith Set",
       "armor": {"owned": false, "name": "Hunter's Faith Vest"},
       "gloves": {"owned": false, "name": "Hunter's Faith Gloves"},
       "holster": {"owned": false, "name": "Hunter's Faith Holster"},
@@ -56,7 +70,9 @@
       "mask": {"owned": false, "name": "Hunter's Faith Mask"},
       "pack": {"owned": false, "name": "Hunter's Faith Backpack"}
     },
-    "Lone Star Set": {
+    {
+      "id": 8,
+      "name": "Lone Star Set",
       "armor": {"owned": false, "name": "Lone Star Vest"},
       "gloves": {"owned": false, "name": "Lone Star Gloves"},
       "holster": {"owned": false, "name": "Lone Star Holster"},
@@ -64,7 +80,9 @@
       "mask": {"owned": false, "name": "Lone Star Mask"},
       "pack": {"owned": false, "name": "Lone Star Backpack"}
     },
-    "Path of the Nomad Set": {
+    {
+      "id": 9,
+      "name": "Path of the Nomad Set",
       "armor": {"owned": false, "name": "Armor of the Nomad "},
       "gloves": {"owned": false, "name": "Gloves of the Nomad "},
       "holster": {"owned": false, "name": "Holster of the Nomad "},
@@ -72,7 +90,9 @@
       "mask": {"owned": false, "name": "Mask of the Nomad "},
       "pack": {"owned": false, "name": "Backpack of the Nomad "}
     },
-    "Predator's Mark Set": {
+    {
+      "id": 10,
+      "name": "Predator's Mark Set",
       "armor": {"owned": false, "name": "Predator's Mark Armor"},
       "gloves": {"owned": false, "name": "Predator's Mark Gloves"},
       "holster": {"owned": false, "name": "Predator's Mark Holster"},
@@ -80,7 +100,9 @@
       "mask": {"owned": false, "name": "Predator's Mark Mask"},
       "pack": {"owned": false, "name": "Predator's Mark Backpack"}
     },
-    "Reclaimer Set": {
+    {
+      "id": 11,
+      "name": "Reclaimer Set",
       "armor": {"owned": false, "name": "Reclaimer Vest"},
       "gloves": {"owned": false, "name": "Reclaimer Glooves"},
       "holster": {"owned": false, "name": "Reclaimer Holster"},
@@ -88,7 +110,9 @@
       "mask": {"owned": false, "name": "Reclaimer Ventilator"},
       "pack": {"owned": false, "name": "Reclaimer Support Pack"}
     },
-    "Sentry's Call Set": {
+    {
+      "id": 12,
+      "name": "Sentry's Call Set",
       "armor": {"owned": false, "name": "Sentry's Call Harness"},
       "gloves": {"owned": false, "name": "Sentry's Call Gloves"},
       "holster": {"owned": false, "name": "Sentry's Call Holster"},
@@ -96,7 +120,9 @@
       "mask": {"owned": false, "name": "Sentry's Call Mask"},
       "pack": {"owned": false, "name": "Sentry's Call Backpack"}
     },
-    "Striker's Battlegear Set": {
+    {
+      "id": 13,
+      "name": "Striker's Battlegear Set",
       "armor": {"owned": false, "name": "Striker's Harness"},
       "gloves": {"owned": false, "name": "Striker's Gloves"},
       "holster": {"owned": false, "name": "Striker's Holster"},
@@ -104,7 +130,9 @@
       "mask": {"owned": false, "name": "Striker's Mask"},
       "pack": {"owned": false, "name": "Striker's Pack"}
     },
-    "Tactician's Authority Set": {
+    {
+      "id": 14,
+      "name": "Tactician's Authority Set",
       "armor": {"owned": false, "name": "Tactician's Authority Vest"},
       "gloves": {"owned": false, "name": "Tactician's Authority Gloves"},
       "holster": {"owned": false, "name": "Tactician's Authority Holster"},
@@ -112,5 +140,5 @@
       "mask": {"owned": false, "name": "Tactician's Authority Mask"},
       "pack": {"owned": false, "name": "Tactician's Authority Pack "}
     }
-  }
+  ]
 }
