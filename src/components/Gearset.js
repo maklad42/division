@@ -14,6 +14,7 @@ export function Gearset({ classes }) {
           <Title key={gearset.id}>{gearset.name}</Title>
           <Items>
             <Item key="armor" className={classNames('gearitem', classes)}>
+              <img src="../public/images/vest.png" alt=""></img>
               {gearset.armor.name}
             </Item>
             <Item key="mask" className={classNames('gearitem', classes)}>
