@@ -14,23 +14,54 @@ export function Gearset({ classes }) {
           <Title key={gearset.id}>{gearset.name}</Title>
           <Items>
             <Item key="armor" className={classNames('gearitem', classes)}>
-              <img src="../public/images/vest.png" alt=""></img>
-              {gearset.armor.name}
+              <div className="gearicon">
+                <img className="itemicon" src="../images/vest.png" alt=""></img>
+              </div>
+              <div className="checker">Owned!</div>
+              <div className="gearname">{gearset.armor.name}</div>
             </Item>
             <Item key="mask" className={classNames('gearitem', classes)}>
-              {gearset.mask.name}
+              <div className="gearicon">
+                <img className="itemicon" src="../images/mask.png" alt=""></img>
+              </div>
+              <div className="checker">Owned!</div>
+              <div className="gearname">{gearset.mask.name}</div>
             </Item>
             <Item key="kneepads" className={classNames('gearitem', classes)}>
-              {gearset.kneepads.name}
+              <div className="gearicon">
+                <img className="itemicon" src="../images/pads.png" alt=""></img>
+              </div>
+              <div className="checker">Owned!</div>
+              <div className="gearname">{gearset.kneepads.name}</div>
             </Item>
             <Item key="pack" className={classNames('gearitem', classes)}>
-              {gearset.pack.name}
+              <div className="gearicon">
+                <img className="itemicon" src="../images/pack.png" alt=""></img>
+              </div>
+              <div className="checker">Owned!</div>
+              <div className="gearname">{gearset.pack.name}</div>
             </Item>
             <Item key="gloves" className={classNames('gearitem', classes)}>
-              {gearset.gloves.name}
+              <div className="gearicon">
+                <img
+                  className="itemicon"
+                  src="../images/gloves.png"
+                  alt=""
+                ></img>
+              </div>
+              <div className="checker">Owned!</div>
+              <div className="gearname">{gearset.gloves.name}</div>
             </Item>
             <Item key="holster" className={classNames('gearitem', classes)}>
-              {gearset.holster.name}
+              <div className="gearicon">
+                <img
+                  className="itemicon"
+                  src="../images/holster.png"
+                  alt=""
+                ></img>
+              </div>
+              <div className="checker">Owned!</div>
+              <div className="gearname">{gearset.holster.name}</div>
             </Item>
           </Items>
         </Container>
