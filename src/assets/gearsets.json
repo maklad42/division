@@ -63,7 +63,7 @@
     {
       "id": 7,
       "name": "Hunter's Faith Set",
-      "armor": {"owned": false, "name": "Hunter's Faith Vest"},
+      "armor": {"owned": true, "name": "Hunter's Faith Vest"},
       "gloves": {"owned": false, "name": "Hunter's Faith Gloves"},
       "holster": {"owned": false, "name": "Hunter's Faith Holster"},
       "kneepads": {"owned": false, "name": "Hunter's Faith Knee Pads"},
@@ -124,10 +124,10 @@
       "id": 13,
       "name": "Striker's Battlegear Set",
       "armor": {"owned": false, "name": "Striker's Harness"},
-      "gloves": {"owned": false, "name": "Striker's Gloves"},
-      "holster": {"owned": false, "name": "Striker's Holster"},
+      "gloves": {"owned": true, "name": "Striker's Gloves"},
+      "holster": {"owned": true, "name": "Striker's Holster"},
       "kneepads": {"owned": false, "name": "Striker's Glooves"},
-      "mask": {"owned": false, "name": "Striker's Mask"},
+      "mask": {"owned": true, "name": "Striker's Mask"},
       "pack": {"owned": false, "name": "Striker's Pack"}
     },
     {

@@ -24,6 +24,7 @@ export const Item = styled.div`
   margin: 7px 0;
   color: #bbc4bc;
   height: 2rem;
+  overflow: hidden;
 
   div.gearicon {
     position: relative;
