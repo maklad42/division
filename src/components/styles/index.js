@@ -1,4 +1,4 @@
 import { Gearset } from './Gearset';
-import { BBanner } from './Banner';
+import { Banner } from './Banner';
 
 export { Gearset, Banner };
