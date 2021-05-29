@@ -126,7 +126,7 @@
       "armor": {"owned": false, "name": "Striker's Harness"},
       "gloves": {"owned": true, "name": "Striker's Gloves"},
       "holster": {"owned": true, "name": "Striker's Holster"},
-      "kneepads": {"owned": false, "name": "Striker's Glooves"},
+      "kneepads": {"owned": false, "name": "Striker's Knee Pads"},
       "mask": {"owned": true, "name": "Striker's Mask"},
       "pack": {"owned": false, "name": "Striker's Pack"}
     },

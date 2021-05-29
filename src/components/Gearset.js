@@ -26,7 +26,9 @@ export function Gearset({ gearsets }, { classes }) {
                   alt=""
                 ></img>
               </div>
-              <div className="checker">Owned!</div>
+              <div className="checker">
+                {gearset.armor.owned ? 'Owned!' : 'Still looking'}
+              </div>
               <div className="gearname">{gearset.armor.name}</div>
             </Item>
             <Item
@@ -44,7 +46,9 @@ export function Gearset({ gearsets }, { classes }) {
                   alt=""
                 ></img>
               </div>
-              <div className="checker">Owned!</div>
+              <div className="checker">
+                {gearset.mask.owned ? 'Owned!' : 'Still looking'}
+              </div>
               <div className="gearname">{gearset.mask.name}</div>
             </Item>
             <Item
@@ -62,7 +66,9 @@ export function Gearset({ gearsets }, { classes }) {
                   alt=""
                 ></img>
               </div>
-              <div className="checker">Owned!</div>
+              <div className="checker">
+                {gearset.kneepads.owned ? 'Owned!' : 'Still looking'}
+              </div>
               <div className="gearname">{gearset.kneepads.name}</div>
             </Item>
             <Item
@@ -80,7 +86,9 @@ export function Gearset({ gearsets }, { classes }) {
                   alt=""
                 ></img>
               </div>
-              <div className="checker">Owned!</div>
+              <div className="checker">
+                {gearset.pack.owned ? 'Owned!' : 'Still looking'}
+              </div>
               <div className="gearname">{gearset.pack.name}</div>
             </Item>
             <Item
@@ -98,7 +106,9 @@ export function Gearset({ gearsets }, { classes }) {
                   alt=""
                 ></img>
               </div>
-              <div className="checker">Owned!</div>
+              <div className="checker">
+                {gearset.gloves.owned ? 'Owned!' : 'Still looking'}
+              </div>
               <div className="gearname">{gearset.gloves.name}</div>
             </Item>
             <Item
@@ -116,7 +126,9 @@ export function Gearset({ gearsets }, { classes }) {
                   alt=""
                 ></img>
               </div>
-              <div className="checker">Owned!</div>
+              <div className="checker">
+                {gearset.holster.owned ? 'Owned!' : 'Still looking'}
+              </div>
               <div className="gearname">{gearset.holster.name}</div>
             </Item>
           </Items>
