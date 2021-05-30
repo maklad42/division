@@ -5,6 +5,10 @@ import { Container, Title, Items, Item, Check } from './styles/Gearset';
 export function Gearset({ gearsets }, { classes }) {
   const gear = gearsets;
 
+  function toggleOwned() {
+    console.log('You toggled the Owned property');
+  }
+
   return (
     <>
       {gear.gearsets.map((gearset) => (
@@ -26,7 +30,7 @@ export function Gearset({ gearsets }, { classes }) {
                   alt=""
                 ></img>
               </div>
-              <div className="checker">
+              <div className="checker" onClick={toggleOwned}>
                 {gearset.armor.owned ? 'Owned!' : 'Still looking'}
               </div>
               <div className="gearname">{gearset.armor.name}</div>
